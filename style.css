@@ -1,7 +1,11 @@
 body {
-    display: flex;
-    flex-direction: column;
     margin: 0px;
+    background-image: url(images/pexels-mahima-518693-1250260.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
 }
 
 html {
@@ -26,4 +30,34 @@ h1 {
 
     margin-right: auto;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.582);
+    border-radius: 15px;
+    flex: initial;
+    padding: 10px;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.container2 {
+    width: 300px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 20px;
+}
+p {
+    font-size: 15px;
 }
